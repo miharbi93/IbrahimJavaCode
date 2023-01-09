@@ -5,12 +5,16 @@ class MyOwnAutoShop{
 
         System.out.println(gari.getSalesPrice());
 
-        Ford fodi = new Ford();
+        //Ford fodi = new Ford();
 
-        //Ford fodi = new Ford(56,4000,"White",1999,577);
+        Ford fodi = new Ford(56,4000,"White",1999,577);
 
-        //Truck tr = new Truck(15,55.0,"Silver",55);
+        Truck tr = new Truck(15,55.0,"Silver",55);
 
-        //sedan.getSalesPrice();
+        gari.getSalesPrice();
+
+        System.out.println(gari.getSalesPrice());
+        System.out.println(fodi.getSalesPrice());
+        System.out.println(tr.getSalesPrice());
     }
 }
